@@ -1,5 +1,5 @@
 # esx_burgerjob
-Had a friend ask me to make him a simple script for burgershot job soo... yeah, I figured I'd share it here too lol.
+just a simple burgershot job that I made. Figured that I wanna share it here. Don't expect any fixes or updates... sorry.
 ## Features
 * Easy Configurations. Read Comments in the files for more information.
 * Possibility to add more items or change current items that can be used and made in the kitchen.
