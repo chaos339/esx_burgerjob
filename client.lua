@@ -72,10 +72,10 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 		
 		if PlayerData.job ~= nil and PlayerData.job.name == 'x' then --Change 'x' into the job name you wish to apply it into.
-		DrawMarker(21, -1170.78,-900.32,13.81, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Cooking Marker Position.
+		DrawMarker(21, -1200.0,-900.00,14.00, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Cooking Marker Position.
 			
 		local coords = GetEntityCoords(PlayerPedId())
-		local distance = GetDistanceBetweenCoords(coords, -1170.78,-900.32,13.81, true)
+		local distance = GetDistanceBetweenCoords(coords, -1200.0,-900.00,14.00, true)
 		
 		if distance < 1.0 then
 			ESX.ShowHelpNotification('Press [E] To Cook Food')	
@@ -98,10 +98,10 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 		
 		if PlayerData.job ~= nil and PlayerData.job.name == 'x' then --Change 'x' into the job name you wish to apply it into.
-		DrawMarker(21, -1172.67,-901.82,13.74, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Cooking Marker Position.
+		DrawMarker(21, -1202.00,-897.00,14.00, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Cooking Marker Position.
 			
 		local coords = GetEntityCoords(PlayerPedId())
-		local distance = GetDistanceBetweenCoords(coords, -1172.67,-901.82,13.74, true)
+		local distance = GetDistanceBetweenCoords(coords, -1202.00,-897.00,14.00, true)
 		
 		if distance < 1.0 then
 			ESX.ShowHelpNotification('Press [E] To Cook Food')	
@@ -124,10 +124,10 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 		
 		if PlayerData.job ~= nil and PlayerData.job.name == 'x' then --Change 'x' into the job name you wish to apply it into.
-		DrawMarker(21, -1176.11,-901.34,13.66, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Brewing Marker Position
+		DrawMarker(21, -1199.10,-895.20,14.00, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 1.0, 0.25, 255,0,0, 100, false, true, 2, false, false, false, false) -- Brewing Marker Position
 			
 		local coords = GetEntityCoords(PlayerPedId())
-		local distance = GetDistanceBetweenCoords(coords, -1176.11,-901.34,13.66, true)
+		local distance = GetDistanceBetweenCoords(coords, -1199.10,-895.20,14.00, true)
 		
 		if distance < 1.0 then
 			ESX.ShowHelpNotification('Press [E] To Make A Drink')	
