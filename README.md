@@ -16,7 +16,7 @@ just a simple burgershot job that I made. Figured that I wanna share it here. Do
 * Do not forget to add the items that will be used and will be made in your `items` table in your database. I had an sql file ready if you want to use it to add the items
 to your database. OR you can just manually do it. The items are in the `burgerjob.sql` file.
 * `Line 52`, That is the line for the `MAP BLIP` that you can see in the menu. Feel Free to change that.
-* `Line 75, 101 and 127`. This is the coords for the `cooking spots`. It is currently outside of the Burgershot (In the right side). I had issues putting them inside, the marker won't appear for some reason when I put it inside the Burgershot MLO so I had to put it outside... Try asking an expert if they can somehow fix it.
+* `Line 75, 101 and 127`. This is the coords for the `cooking spots`. It is inside the burgershot, in the back. Changing the coords was very hard for me because the x,y,z is not accurate when I was positioning the markers. I suggest keep it where it is.
 * Additional Info in the files. Read Comments, kinda helps.
 
 ## Download & Installation
@@ -37,4 +37,3 @@ ensure esx_burgerjob
 ## Optional
 * Run `burgerjob.sql` in your database to add items in your `items` table.
 * Burgershot MLO Either [this](https://www.gta5-mods.com/maps/gtaiv-burgershot-interior-sp-and-fivem) or [this one](https://www.gta5-mods.com/maps/burgershot-remastered-gta-v-interior-mod-gtadps). Thanks Smallo for the first link and gtaDPS for the second one.
-  * But as I said, I cannot see my blips inside when I put them there..
